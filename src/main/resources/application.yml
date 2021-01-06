@@ -1,0 +1,11 @@
+spring:
+  redis:  #redis配置
+    database: 0
+    port: 6379
+    host: localhost
+    password: Hxm1106247!
+    lettuce:
+      pool:
+        min-idle: 5
+        max-idle: 20
+        max-wait: 6000 # 连接池最大阻塞等待时间（使用负值表示没有限制）,毫秒
