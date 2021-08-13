@@ -1,4 +1,9 @@
 # puzzle_captcha
+请先进入vue目录再执行`npm install` 或`npm i`命令
+```shell
+cd vue
+npm install
+```
 Java版滑块验证码
 
 CSND: https://blog.csdn.net/a627428179/article/details/109337901
